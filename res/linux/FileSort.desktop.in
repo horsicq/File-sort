@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=@PROJECT_VERSION@
+Type=Application
+Name=FileSort
+Comment=FileSort utility
+TryExec=FileSort
+Exec=FileSort
+Icon=FileSort
+Terminal=false
+Categories=Development;
