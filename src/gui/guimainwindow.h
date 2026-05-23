@@ -28,7 +28,7 @@
 #include <QSettings>
 
 #include "../global.h"
-#include "die_script.h"
+#include "xscanengine.h"
 
 namespace Ui {
 class GuiMainWindow;
@@ -47,7 +47,7 @@ private slots:
 
 private:
     Ui::GuiMainWindow *ui;
-    DiE_Script m_dieScript;
+    XScanEngine m_scanEngine;
 };
 
 #endif  // GUIMAINWINDOW_H

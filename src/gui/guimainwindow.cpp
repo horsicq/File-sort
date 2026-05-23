@@ -33,7 +33,7 @@ GuiMainWindow::GuiMainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::
 
     setWindowTitle(QString("%1 v%2").arg(X_APPLICATIONNAME, X_APPLICATIONVERSION));
 
-    ui->widgetSort->setEngine(&m_dieScript);
+    ui->widgetSort->setEngine(&m_scanEngine);
 }
 
 GuiMainWindow::~GuiMainWindow()
