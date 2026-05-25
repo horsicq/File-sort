@@ -10,11 +10,7 @@ add_definitions(-DUSE_XSIMD)
 # Include xscanwidgets first so its xscanengine dependency is marked defined
 # before die_script.cmake runs — prevents duplicate sources.
 include(${CMAKE_CURRENT_LIST_DIR}/../../dep/XScanEngine/xscanwidgets.cmake)
-include(${CMAKE_CURRENT_LIST_DIR}/../../dep/die_script/die_script.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/../../dep/XStyles/xstyles.cmake)
-if(NOT DEFINED XYARA_SOURCES)
-    include(${CMAKE_CURRENT_LIST_DIR}/../../dep/XYara/xyara.cmake)
-endif()
 
 if(UNIX AND NOT APPLE)
     include(GNUInstallDirs)
@@ -22,9 +18,7 @@ endif()
 
 set(FILE_SORT_GUI_SOURCES
     ${XSCANWIDGETS_SOURCES}
-    ${DIE_SCRIPT_SOURCES}
     ${XSTYLES_SOURCES}
-    ${XYARA_SOURCES}
     main_gui.cpp
     guimainwindow.cpp
     guimainwindow.h
