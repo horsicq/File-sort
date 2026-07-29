@@ -97,6 +97,7 @@ if(EXISTS "${FILE_SORT_TRANSLATION_HELPER}")
         "${CMAKE_CURRENT_LIST_DIR}/../translations/FileSort_tr_TR.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/FileSort_uk_UA.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/FileSort_vi_VN.ts"
+        "${CMAKE_CURRENT_LIST_DIR}/../translations/FileSort_sq_AL.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/FileSort_zh_CN.ts"
         "${CMAKE_CURRENT_LIST_DIR}/../translations/FileSort_zh_TW.ts"
     )
