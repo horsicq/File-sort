@@ -58,6 +58,7 @@ target_link_libraries(FileSort PRIVATE
     lzma
     ppmd
     zlib
+    xarchive_7zip
     capstone
     yara
     xsimd
