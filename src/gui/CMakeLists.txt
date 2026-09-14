@@ -51,10 +51,6 @@ target_link_libraries(FileSort PRIVATE
     Qt${FILE_SORT_QT_MAJOR}::Widgets
     Qt${FILE_SORT_QT_MAJOR}::Concurrent
     Qt${FILE_SORT_QT_MAJOR}::Sql
-    bzip2
-    lzma
-    ppmd
-    zlib
     capstone
     yara
     xsimd
