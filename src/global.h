@@ -24,10 +24,10 @@
 #include <QtGlobal>
 
 #define X_APPLICATIONDISPLAYNAME "FileSort"
-#define X_APPLICATIONNAME        "FileSort"
-#define X_APPLICATIONVERSION     "0.02"
-#define X_ORGANIZATIONNAME       "NTInfo"
-#define X_ORGANIZATIONDOMAIN     "ntinfo.biz"
-#define X_OPTIONSFILE            "FileSort.ini"
+#define X_APPLICATIONNAME "FileSort"
+#define X_APPLICATIONVERSION "0.02"
+#define X_ORGANIZATIONNAME "NTInfo"
+#define X_ORGANIZATIONDOMAIN "ntinfo.biz"
+#define X_OPTIONSFILE "FileSort.ini"
 
 #endif  // GLOBAL_H
